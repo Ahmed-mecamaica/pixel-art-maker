@@ -15,7 +15,11 @@ for(var i=1;i<input.byid('input_height').value;i++)
         };
 
 };
+function cleargrid(){
+	$('.color').remove();
+};
 $('#make-grid').click(function(){
+	cleargrid();
 	makegrid();
 });
 //color elemnt
