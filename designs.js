@@ -5,6 +5,13 @@
 
 function makeGrid() {
 
-// Your code goes here!
+for(var i=1;i<input.byid('input_height').value;i++)
+        {
+            $('table').append('<tr class='color'></tr>');
+            for(var j=1;j<input.byid('input_width');j++)
+            {
+                $('tr').append('<td class='color'></td>');
+            };
+        };
 
-}
+};
