@@ -2,7 +2,7 @@
 // Select size input
 
 // When size is submitted by the user, call makeGrid()
-
+//function to ake grid
 function makeGrid() {
 
 for(var i=1;i<input.byid('input_height').value;i++)
@@ -15,3 +15,10 @@ for(var i=1;i<input.byid('input_height').value;i++)
         };
 
 };
+$('#make-grid').click(function(){
+	makegrid();
+});
+//color elemnt
+$('.color').click(function(){
+	('this').css('background-color','input.byid('colorPicker').value');
+});
