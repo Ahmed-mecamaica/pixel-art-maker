@@ -15,6 +15,7 @@ for(var i=1;i<input.byid('input_height').value;i++)
         };
 
 };
+//clear grid
 function cleargrid(){
 	$('.color').remove();
 };
